@@ -6,7 +6,7 @@ def mae(predictions, targets):
         Mean Absolute Error
 
         Algo:
-            1. Find all of your absolute errors, xi – x.
+            1. Calculate the differences between predictions and targets.
             2. Add them all up.
             3. Divide by the number of errors.
     :param predictions:

@@ -20,3 +20,11 @@
             1. Find all of your absolute errors, xi – x.
             2. Add them all up.
             3. Divide by the number of errors.
+    
+   * Mean Bias Error
+   
+          Algo:
+
+            1. Calculate the differences between predictions and targets.
+            2. Add them all up.
+            3. Divide by the number of errors.

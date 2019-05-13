@@ -10,11 +10,13 @@ def mse(predictions, targets):
                 Find the regression line.
                 Insert your X values into the linear regression equation to find the new Y values (Y').
 
-            1. Subtract the new Y value from the original to get the error.
+            1. Calculate the differences between predictions and targets.
             2. Square the errors.
             3. Add up the errors.
             4. Find the mean.
 
+    :param predictions:
+    :param targets:
     :return: mean square error for a given prediction data set and corresponding truth value
     """
     differences = predictions - targets
