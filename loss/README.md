@@ -28,3 +28,20 @@
             1. Calculate the differences between predictions and targets.
             2. Add them all up.
             3. Divide by the number of errors.
+   
+   * Huber Loss, Smooth Mean Absolute Error
+
+          Algo:
+
+            MAE when 𝛿 ~ 0 and MSE when 𝛿 ~ ∞ (large numbers.)
+
+            Case 1: |y-f(x)| <= 𝛿 calculate ((y-f(x))**2)/2
+            Case 2: Otherwise 𝛿 |y - f(x)| - (𝛿**2)/2
+   
+   * Log-Cosh Loss
+
+          Algo:
+            
+            1. Calculate differences between predictions and targets
+            2. calculate cosh of differences
+            3. calculate log of subsequent result
